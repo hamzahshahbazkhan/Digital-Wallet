@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin: ["digital - wallet - chi.vercel.app"],
+        origin: ["https://digital-wallet-chi.vercel.app"],
         methods: ["POST", "PUT", "DELETE", "GET"],
         credentials: true
     }
