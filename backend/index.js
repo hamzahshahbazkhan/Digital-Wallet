@@ -5,7 +5,13 @@ const cors = require('cors');
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+    {
+        origin: [digital - wallet - chi.vercel.app],
+        methods: ["POST", "PUT", "DELETE", "GET"],
+        credentials: true
+    }
+));
 app.use(express.json());
 
 app.use('/api/v1', rootRouter);
