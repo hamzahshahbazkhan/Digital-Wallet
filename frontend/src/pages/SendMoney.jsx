@@ -45,7 +45,7 @@ export const SendMoney = () => {
                         </div>
                         <button onClick={async () => {
                             console.log("transaction completed")
-                            await axios.post("http://digital-wallet-api1.vercel.app/api/v1/account/transfer", {
+                            await axios.post("https://digital-wallet-api1.vercel.app/api/v1/account/transfer", {
                                 to: id,
                                 amount
                             }, {

@@ -15,7 +15,7 @@ export const Dashboard = () => {
 
     const [balance, setBalance] = useState('')
     useEffect(() => {
-        axios.get("http://digital-wallet-api1.vercel.app/api/v1/account/balance", {
+        axios.get("https://digital-wallet-api1.vercel.app/api/v1/account/balance", {
             headers: {
                 Authorization: "Bearer " + localStorage.getItem("token")
             }

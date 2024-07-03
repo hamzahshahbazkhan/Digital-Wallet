@@ -45,7 +45,7 @@ export const Signup = () => {
                         console.log(firstName);
                         console.log(lastName);
                         console.log(password);
-                        const response = await axios.post("http://digital-wallet-api1.vercel.app/api/v1/user/signup", {
+                        const response = await axios.post("https://digital-wallet-api1.vercel.app/api/v1/user/signup", {
                             username,
                             firstName,
                             lastName,
