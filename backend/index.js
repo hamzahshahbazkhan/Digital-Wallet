@@ -22,6 +22,9 @@ app.use((req, res, next) => {
 });
 
 app.use('/api/v1', rootRouter);
+app.get('/hello', (req, res) => {
+    res.json({ "hello": "world" });
+})
 
 
 app.listen(3000, () => {
