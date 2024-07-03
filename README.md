@@ -1,5 +1,5 @@
 
-## Build a basic Digital Wallet
+## Built a basic Digital Wallet
 
 This is a digital wallet where you can signup and perform transactions from your wallet.
 
